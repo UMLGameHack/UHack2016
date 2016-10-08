@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3DD69FFD-182E-E0C9-D64F-27E520DBCA9A}") = "UHackGame", "Assembly-CSharp.csproj", "{35AAEC03-9A5B-E1F8-3634-170F865319BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35AAEC03-9A5B-E1F8-3634-170F865319BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AAEC03-9A5B-E1F8-3634-170F865319BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AAEC03-9A5B-E1F8-3634-170F865319BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AAEC03-9A5B-E1F8-3634-170F865319BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

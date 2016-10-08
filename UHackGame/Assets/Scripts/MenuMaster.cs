@@ -3,13 +3,12 @@ using System.Collections;
 
 public class MenuMaster : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	public void goLevel1(){
+		UnityEngine.SceneManagement.SceneManager.LoadScene ("Level1");
+	}
+
+	public void quitGame(){
+		Application.Quit ();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
