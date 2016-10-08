@@ -53,7 +53,7 @@ public struct GuitarInput
  *      
  * 
  */ 
-public abstract class GuitarInterface : MonoBehaviour
+public abstract class GuitarInterface 
 {
 
     //contains lists of notes that *might* sound good in series
@@ -238,16 +238,6 @@ public abstract class GuitarInterface : MonoBehaviour
         }
         return melody;
     }
-    // Use to initialize
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update () {
-	
-	}
 
     protected GuitarInput G1;
     protected string MajorKeyOf;

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
+
 
 public class TutorialP2Controller : MonoBehaviour {
 	public Text Line;
@@ -11,7 +13,6 @@ public class TutorialP2Controller : MonoBehaviour {
 	private int pos = 1;
 	public float textspeed = .1f; // words per second
 	private float currenttime;
-	public int linenumbers = 1;
 	public AudioSource MusicBox;
 	public AudioSource MusicBox1;
 	public AudioSource MusicBox2;
@@ -23,6 +24,7 @@ public class TutorialP2Controller : MonoBehaviour {
 	public Image h2_note;
 	public Image h3_note;
 	// Use this for initialization
+	GuitarInterface fg;
 	void Start () {
 		h1.enabled = false;
 		h2.enabled = false;
@@ -33,6 +35,13 @@ public class TutorialP2Controller : MonoBehaviour {
 		h2_note.GetComponentInChildren<Text> ().enabled = false;
 		h3_note.enabled = false;
 		h3_note.GetComponentInChildren<Text> ().enabled = false;
+		if (PlayerPrefs.GetString ("input") == "keyboard") {
+			fg = new FakeGuitarInterface ();
+		} else if (PlayerPrefs.GetString ("input") == "guitar") {
+			fg = new FakeGuitarInterface ();
+		} else {
+			fg = new FakeGuitarInterface ();
+		}
 	
 	}
 	
@@ -170,8 +179,35 @@ public class TutorialP2Controller : MonoBehaviour {
 			}
 		case 9:{
 				// read input here and validate
+				//Debug.Log(fg.NoteToString(fg.GetInput ().Notes[0]));
+				if (fg.GetInput ().Notes.Count != 0){
+					if (fg.NoteToString (fg.GetInput ().Notes [0]) == "C") {
+						step += 1;
+					}
+				}
+
 				break;
 			}
+		
+		case 10:
+			{if (fg.GetInput ().Notes.Count != 0){
+					if (fg.NoteToString (fg.GetInput ().Notes [0]) == "D") {
+						step += 1;
+					}
+				}
+
+				break;}
+		
+		case 11:
+			{if (fg.GetInput ().Notes.Count != 0){
+					if (fg.NoteToString (fg.GetInput ().Notes [0]) == "D") {
+						step += 1;
+					}
+				}
+
+				break;}
+		case 12:
+			{UnityEngine.SceneManagement.SceneManager.LoadScene ("TutorialP3");break;}
 
 
 
