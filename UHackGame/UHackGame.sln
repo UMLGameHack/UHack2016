@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{3DD69FFD-182E-E0C9-D64F-27E520DBCA9A}") = "UHackGame", "Assembly-CSharp.csproj", "{35AAEC03-9A5B-E1F8-3634-170F865319BE}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UHackGame.CSharp", "UHackGame.CSharp.csproj", "{36ACA8C1-F6EA-720D-2F21-6A97E6D85EBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{35AAEC03-9A5B-E1F8-3634-170F865319BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35AAEC03-9A5B-E1F8-3634-170F865319BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35AAEC03-9A5B-E1F8-3634-170F865319BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35AAEC03-9A5B-E1F8-3634-170F865319BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36ACA8C1-F6EA-720D-2F21-6A97E6D85EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36ACA8C1-F6EA-720D-2F21-6A97E6D85EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36ACA8C1-F6EA-720D-2F21-6A97E6D85EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36ACA8C1-F6EA-720D-2F21-6A97E6D85EBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
