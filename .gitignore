@@ -67,5 +67,12 @@ $RECYCLE.BIN/
 Builds/Builds.unity3d
 *.exe
 
-#Andy's notebook
+#Andy's notebook and testing files
 AndyNotebook.docx
+hello.wav
+ROCK.stl
+BottomPiece.stl
+MainBody.stl
+InputBox.scad
+
+
