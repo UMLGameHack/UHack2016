@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: c9155af12d0c14b0aaea058c39c4dd8a
+timeCreated: 1475914467
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KeukQ_0
+    21300002: KeukQ_1
+    21300004: KeukQ_2
+    21300006: KeukQ_3
+    21300008: KeukQ_4
+    21300010: KeukQ_5
+    21300012: KeukQ_6
+    21300014: KeukQ_7
+    21300016: KeukQ_8
+    21300018: KeukQ_9
+    21300020: KeukQ_10
+    21300022: KeukQ_11
+    21300024: KeukQ_12
+    21300026: KeukQ_13
+    21300028: KeukQ_14
+    21300030: KeukQ_15
+    21300032: KeukQ_16
+    21300034: KeukQ_17
+    21300036: KeukQ_18
+    21300038: KeukQ_19
+    21300040: KeukQ_20
+    21300042: KeukQ_21
+    21300044: KeukQ_22
+    21300046: KeukQ_23
+    21300048: KeukQ_24
+    21300050: KeukQ_25
+    21300052: KeukQ_26
+    21300054: KeukQ_27
+    21300056: KeukQ_28
+    21300058: KeukQ_29
+    21300060: KeukQ_30
+    21300062: KeukQ_31
+    21300064: KeukQ_32
+    21300066: KeukQ_33
+    21300068: KeukQ_34
+    21300070: KeukQ_35
+    21300072: KeukQ_36
+    21300074: KeukQ_37
+    21300076: KeukQ_38
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KeukQ_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 210
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 210
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 210
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 210
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4178388, y: 0.524232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 210
+        width: 30
+        height: 38
+      alignment: 9
+      pivot: {x: 0.42488098, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 210
+        width: 32
+        height: 36
+      alignment: 9
+      pivot: {x: 0.39436436, y: 0.5208664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 210
+        width: 32
+        height: 34
+      alignment: 9
+      pivot: {x: 0.382627, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 170
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.40610176, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 170
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4413134, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 170
+        width: 27
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6808412, y: 0.524232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 170
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: 0.69475186, y: 0.51173735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 170
+        width: 26
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6733504, y: 0.50988406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 170
+        width: 27
+        height: 36
+      alignment: 9
+      pivot: {x: 0.7086628, y: 0.5104332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 170
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.7086628, y: 0.52209383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: 0.7086628, y: 0.51173735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.65023744, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 128
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6683692, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 128
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: 0.59066063, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 128
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5866752, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 128
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6300125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 85
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 85
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 85
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.33572707, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_23
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 85
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: 0.68450373, y: 0.5082826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_24
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 85
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: 0.59710747, y: 0.5082826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 85
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5758186, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 85
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.62997437, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 45
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 45
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 45
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.34354952, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 44
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.37483957, y: 0.50828284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 45
+        width: 36
+        height: 33
+      alignment: 9
+      pivot: {x: 0.37483937, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_32
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 45
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.40889066, y: 0.5088005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.45529354, y: 0.50866205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_34
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 4
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.59641, y: 0.50866205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_36
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 4
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.60846144, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_37
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.565995, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KeukQ_38
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.71065676, y: 0.50000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
