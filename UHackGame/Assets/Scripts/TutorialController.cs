@@ -29,9 +29,8 @@ public class TutorialController : MonoBehaviour {
 	public string textline5 = "As a bard you need some of these guys to fight for you";
 	public string textline6 = "You help them by playing them some sweet and righteous tunes";
 
-	private int textline_len;
 	private int pos = 1;
-	public float textspeed = .025f; // words per second
+	public float textspeed = .1f; // words per second
 	private float currenttime;
 	public int linenumbers = 1;
 	public AudioSource MusicBox;
@@ -40,7 +39,6 @@ public class TutorialController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		textline_len = textline.Length;
 		currenttime = textspeed;
 		Line.text = textline.Substring(0,pos);
 		MusicBox.Play ();
@@ -95,7 +93,7 @@ public class TutorialController : MonoBehaviour {
 
 				if (pos > textline1.Length - 1) {
 					step += 1;
-					currenttime = textspeed;
+					currenttime = 1;
 					Line.text = textline;
 					pos = 1;
 				}
@@ -124,7 +122,7 @@ public class TutorialController : MonoBehaviour {
 
 				if ((pos > textline2.Length - 1)&(you.enabled)) {
 					step += 1;
-					currenttime = textspeed;
+					currenttime = 2;
 					Line.text = textline;
 					pos = 1;
 				}
@@ -148,7 +146,7 @@ public class TutorialController : MonoBehaviour {
 
 				if (pos > textline3.Length - 1) {
 					step += 1;
-					currenttime = textspeed;
+					currenttime = 2;
 					Line.text = textline;
 					pos = 1;
 				}
@@ -267,7 +265,7 @@ public class TutorialController : MonoBehaviour {
 			}
 		case 11:{
 				if (currenttime < 0) {
-					UnityEngine.SceneManagement.SceneManager.LoadScene ("Level1");
+					UnityEngine.SceneManagement.SceneManager.LoadScene ("TutorialP2");
 				}
 				currenttime -= Time.deltaTime;
 
