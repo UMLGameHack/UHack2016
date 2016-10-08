@@ -135,6 +135,7 @@ public class FFT : MonoBehaviour
         //output should have fft powers in the four bins
         Debug.Log("Bin1: " + output[0] + "Bin2: " + output[1] + "Bin3: " + output[2]);
         Debug.Log("Bin4: " + output[4]);
+        print("Cuoff: " + cutoff);
     }
 
     private IEnumerator StartRecord()

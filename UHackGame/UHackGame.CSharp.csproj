@@ -65,9 +65,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BobBehavior.cs" />
     <Compile Include="Assets\Scripts\HoverArrow.cs" />
+    <Compile Include="Assets\Sprites\Scripts\CommentSectionMicInput.cs" />
+    <Compile Include="Assets\Sprites\Scripts\FFT.cs" />
     <Compile Include="Assets\Sprites\Scripts\GuitarInterface.cs" />
     <Compile Include="Assets\Sprites\Scripts\MenuMaster.cs" />
     <Compile Include="Assets\Sprites\Scripts\MicrophoneInput.cs" />
+    <Compile Include="Assets\Sprites\Scripts\MicrophoneListener.cs" />
+    <Compile Include="Assets\Sprites\Scripts\MicrophoneListenerZed.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
