@@ -9,6 +9,10 @@ public class goRight : MonoBehaviour {
 	public string key;
 	public AudioSource musicbox;
 
+	public Sprite green;
+	public Sprite orange;
+	public Sprite yellow;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -32,6 +36,17 @@ public class goRight : MonoBehaviour {
 			word.text = key;
 			word.enabled = true;
 			bg.enabled = true;
+			int rnd_num = Random.Range (1, 3);
+			if (rnd_num == 1) {
+				bg.sprite = green;
+			}
+			else if (rnd_num == 2) {
+				bg.sprite = orange;
+			}
+			else if (rnd_num == 3) {
+				bg.sprite = yellow;
+			}
+
 			musicbox.Play();
 
 		}

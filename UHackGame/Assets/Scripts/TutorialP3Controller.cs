@@ -103,7 +103,7 @@ public class TutorialP3Controller : MonoBehaviour {
 
 		case 4:{
 				if (currenttime < 0) {
-					UnityEngine.SceneManagement.SceneManager.LoadScene ("Level1");
+					UnityEngine.SceneManagement.SceneManager.LoadScene ("NewGame");
 				}
 				currenttime -= Time.deltaTime;
 
