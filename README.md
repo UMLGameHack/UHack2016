@@ -15,7 +15,12 @@ This game was made in 36 hours during the fourth annual Hack UMass [http://hacku
  - Mohamed Ibrahim
 
 # Pictures
-
+###Bard: The Hero
+![Alt](BagPipeBardThumb.png "Bard: The Hero")
+###Boss Battle
+![Alt](ss1.png "The Boss Battle")
+###Main Menu
+![Alt](ss2.png "Main Menu")
 
 # License
 This game is released under the MIT License
